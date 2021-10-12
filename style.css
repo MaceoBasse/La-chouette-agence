@@ -30,7 +30,7 @@ a:hover {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 50px;
+  padding: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -725,8 +725,14 @@ p {
 }
 
 .social {
-  max-width: 400px;
+  color: white !important;
+  max-width: 500px;
   margin: auto auto auto auto;
+}
+
+.social a {
+  color: white !important;
+  padding-left: 10px;
 }
 
 h2 {
