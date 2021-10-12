@@ -23,7 +23,6 @@ a:hover {
   top: 0;
   bottom: 0;
   width: 100%;
-  z-index: 100000;
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -541,8 +540,6 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
-  z-index: 500;
   transition: all 0.3s ease-in-out;
 }
 
@@ -795,40 +792,40 @@ h4 {
 .bgc-dark-slate-blue {
   background-color: #364577;
 }
-
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: black !important;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
-  color: #ffffff !important;
+  background: #000000;
+  color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
+  background: white!important;
+  color: black!important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
+  color: #c27956!important;
 }
+
 
 .icon-dark-slate-blue {
   color: #364577 !important;
@@ -1023,9 +1020,6 @@ h4 {
   }
   .a-block {
     padding: 0 10px;
-  }
-  .btn-dwn {
-    display: none;
   }
   .voffset {
     margin-top: 5px;
